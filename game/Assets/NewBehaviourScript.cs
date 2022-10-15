@@ -10,7 +10,7 @@ public class NewBehaviourScript : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+    // допустим я есть груд
     void Update()
     {
         
