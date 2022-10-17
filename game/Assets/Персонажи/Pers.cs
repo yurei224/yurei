@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class Pers : MonoBehaviour
 {
-    public float sprrd;
+    public float sprrd = 5;
+    public int health;
 
-    private Rigidbody2D rb;
+    public Rigidbody2D rb;
     private Vector2 movIm;
     private Vector2 movVe;
 
@@ -26,5 +27,10 @@ public class NewBehaviourScript : MonoBehaviour
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + movVe * Time.fixedDeltaTime);
+    }
+
+    public void ChangeHealth(int healthValue)
+    {
+        health += healthValue;
     }
 }
