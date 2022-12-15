@@ -1,8 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - Damage
+    - Bullet
     - Gameoverscript
+    - Gun
     - Health
     - MusicManager
     - NewBehaviourScript
@@ -11,11 +12,11 @@ ScriptsOnlyBuild:
     - gameControl
     - menu
     - pers
+    - pouz
     - qwertyuio
     - rec
     - timer
     - vrag
-    - weapon
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
@@ -83,45 +84,47 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11362}
+      Script: {instanceID: 11418}
     - Class: 114
-      Script: {instanceID: 11712}
-    - Class: 114
-      Script: {instanceID: 11720}
+      Script: {instanceID: 11768}
     - Class: 114
       Script: {instanceID: 11776}
     - Class: 114
-      Script: {instanceID: 11932}
+      Script: {instanceID: 11832}
     - Class: 114
-      Script: {instanceID: 12490}
+      Script: {instanceID: 11988}
     - Class: 114
-      Script: {instanceID: 12560}
+      Script: {instanceID: 12084}
     - Class: 114
-      Script: {instanceID: 12868}
+      Script: {instanceID: 12362}
     - Class: 114
-      Script: {instanceID: 13064}
+      Script: {instanceID: 12550}
     - Class: 114
-      Script: {instanceID: 13300}
+      Script: {instanceID: 12620}
     - Class: 114
-      Script: {instanceID: 13454}
+      Script: {instanceID: 13122}
     - Class: 114
-      Script: {instanceID: 14240}
+      Script: {instanceID: 13220}
     - Class: 114
-      Script: {instanceID: 14282}
+      Script: {instanceID: 13360}
     - Class: 114
-      Script: {instanceID: 14400}
+      Script: {instanceID: 13514}
     - Class: 114
-      Script: {instanceID: 14722}
+      Script: {instanceID: 14298}
     - Class: 114
-      Script: {instanceID: 14848}
+      Script: {instanceID: 14340}
     - Class: 114
-      Script: {instanceID: 15152}
+      Script: {instanceID: 14458}
     - Class: 114
-      Script: {instanceID: 15212}
+      Script: {instanceID: 14902}
     - Class: 114
-      Script: {instanceID: 15810}
+      Script: {instanceID: 15206}
     - Class: 114
-      Script: {instanceID: 15820}
+      Script: {instanceID: 15266}
+    - Class: 114
+      Script: {instanceID: 15292}
+    - Class: 114
+      Script: {instanceID: 15326}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -158,37 +161,37 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11362}
+      Script: {instanceID: 11418}
     - Class: 114
-      Script: {instanceID: 11712}
+      Script: {instanceID: 11768}
     - Class: 114
-      Script: {instanceID: 11718}
+      Script: {instanceID: 11774}
     - Class: 114
-      Script: {instanceID: 11776}
+      Script: {instanceID: 11832}
     - Class: 114
-      Script: {instanceID: 12362}
+      Script: {instanceID: 12422}
     - Class: 114
-      Script: {instanceID: 12560}
+      Script: {instanceID: 12620}
     - Class: 114
-      Script: {instanceID: 12992}
+      Script: {instanceID: 13050}
     - Class: 114
-      Script: {instanceID: 13012}
+      Script: {instanceID: 13070}
     - Class: 114
-      Script: {instanceID: 13454}
+      Script: {instanceID: 13514}
     - Class: 114
-      Script: {instanceID: 13828}
+      Script: {instanceID: 13888}
     - Class: 114
-      Script: {instanceID: 14400}
+      Script: {instanceID: 14458}
     - Class: 114
-      Script: {instanceID: 14514}
+      Script: {instanceID: 14572}
     - Class: 114
-      Script: {instanceID: 14606}
+      Script: {instanceID: 14664}
     - Class: 114
-      Script: {instanceID: 15152}
+      Script: {instanceID: 15206}
     - Class: 114
-      Script: {instanceID: 15180}
+      Script: {instanceID: 15234}
     - Class: 114
-      Script: {instanceID: 15212}
+      Script: {instanceID: 15266}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -364,6 +367,12 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 368348f43d981b95ba2689f6f297d65d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Gun
+  - hash:
+      serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -410,6 +419,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c8c5e65e9fb858572516474d6e2102bc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: pouz
   - hash:
       serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
@@ -472,12 +487,6 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
-      Hash: 7b66d2b63e66c50beb2de4fd134f0926
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Damage
-  - hash:
-      serializedVersion: 2
       Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -506,6 +515,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
     className: SpriteSkinEntity
+  - hash:
+      serializedVersion: 2
+      Hash: 73622b40f09d68e306783146b9bc5cb7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Bullet
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -658,22 +673,10 @@ ScriptsOnlyBuild:
     className: rec
   - hash:
       serializedVersion: 2
-      Hash: 9ef3c72f20e5e4c9ee6f1098932495ae
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: bull
-  - hash:
-      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: MarkerTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 0fddec0b638fca1ef1163b8a38c0cdff
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: weapon
   - hash:
       serializedVersion: 2
       Hash: 800c50acba124432abb4cf0d47202e06
@@ -772,28 +775,28 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
-      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: ToggleGroup
-  - hash:
-      serializedVersion: 2
-      Hash: c3d3430df9e3ea95e3e3d587961390fb
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: PlayableTrack
-  - hash:
-      serializedVersion: 2
       Hash: e813c40504fa91d2a2c6050123a45c27
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Gameoverscript
   - hash:
       serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
       Hash: 68126e71e4ab00d83875cfa76893adc7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: gameControl
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
   platform: 19
   scenePathNames:
   - Assets/menu.unity

@@ -93,12 +93,12 @@ TextureImporter:
       name: Bullet_0
       rect:
         serializedVersion: 2
-        x: 295
-        y: 707
-        width: 126
-        height: 47
+        x: 263
+        y: 282
+        width: 57
+        height: 139
       alignment: 9
-      pivot: {x: 0.48591274, y: 0.4999987}
+      pivot: {x: 0.48591346, y: 0.77397656}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
