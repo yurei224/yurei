@@ -24,6 +24,7 @@ public class vrag : MonoBehaviour
         {
             Destroy(gameObject);
         }
+       
     }
 
     public void TakeDamage(int damage)
