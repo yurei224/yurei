@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Damage : MonoBehaviour
 {
@@ -12,9 +14,9 @@ public class Damage : MonoBehaviour
     {
         if (coll.gameObject.tag == collisionTag)
         {
+            SceneManager.LoadScene(0);
             Health health = coll.gameObject.GetComponent<Health>();
             health.TakeHit(collisionDamage);
-            
         }
     }
 }

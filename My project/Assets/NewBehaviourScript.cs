@@ -8,7 +8,7 @@ public class NewBehaviourScript : MonoBehaviour
 {
     public void Play()//начало игры1
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
     [SerializeField] private Text coinsText;
    
@@ -21,11 +21,11 @@ public class NewBehaviourScript : MonoBehaviour
     }
     public void exit2()
     {
-        Application.Quit(1);
+        Application.Quit(0);
     }
     public void Play2()//начало игры2
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
 }
