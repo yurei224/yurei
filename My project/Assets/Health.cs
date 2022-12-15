@@ -6,6 +6,8 @@ public class Health : MonoBehaviour
 {
     public int health =100;
     public int maxHealth;
+
+    Gameoverscript gem;
     public void TakeHit(int damage)
     {
         health -= damage;
@@ -16,5 +18,7 @@ public class Health : MonoBehaviour
         }
     }
 
-    
+   
+
+
 }

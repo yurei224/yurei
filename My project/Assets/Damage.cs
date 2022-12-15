@@ -10,7 +10,7 @@ public class Damage : MonoBehaviour
     public string collisionTag;
     
 
-    private void OnCollisionEnter2D(Collision2D coll)
+    /*private void OnCollisionEnter2D(Collision2D coll)
     {
         if (coll.gameObject.tag == collisionTag)
         {
@@ -18,5 +18,5 @@ public class Damage : MonoBehaviour
             Health health = coll.gameObject.GetComponent<Health>();
             health.TakeHit(collisionDamage);
         }
-    }
+    }*/
 }
