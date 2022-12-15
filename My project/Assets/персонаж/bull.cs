@@ -12,7 +12,7 @@ public class bull : MonoBehaviour
 
     void Update()
     {
-        RaycastHit2D other = Physics2D.Raycast(transform.position, transform.up, distance);
+        RaycastHit2D other = Physics2D.Raycast(transform.position, transform.up, distance, layerMask);
         if (other.collider.CompareTag("vrag"))
         {
             other.collider.GetComponent<vrag>().TakeDamage(damage);
